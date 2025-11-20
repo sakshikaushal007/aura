@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g14" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff7f2"/>
+      <stop offset="100%" stop-color="#fff9f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g14)" rx="40"/>
+  <g transform="translate(120,120)">
+    <rect x="220" y="140" width="160" height="340" rx="20" fill="#fff" stroke="#fff0e6" stroke-width="3"/>
+    <text x="300" y="460" font-family="Inter, Arial" font-size="28" fill="#3b2b1f" text-anchor="middle">Precision Mascara</text>
+  </g>
+</svg>

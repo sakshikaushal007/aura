@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g6" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff1f6"/>
+      <stop offset="100%" stop-color="#ffeaf2"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g6)" rx="40"/>
+  <g transform="translate(140,120)">
+    <rect x="160" y="120" width="180" height="260" rx="90" fill="#fff" stroke="#ffd7ea" stroke-width="3"/>
+    <rect x="210" y="220" width="80" height="100" rx="40" fill="#fbe8f6"/>
+    <text x="250" y="420" font-family="Inter, Arial" font-size="28" fill="#b4235a" text-anchor="middle">Velvet Lipstick</text>
+  </g>
+</svg>

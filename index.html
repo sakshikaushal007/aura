@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Aura — AI Beauty Advisor</title>
+		<meta name="description" content="AI-powered beauty advisor recommending skincare, makeup, haircare and fragrances tailored to your skin, style and lifestyle." />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<div class="brand">
+					<div class="logo">Aura</div>
+					<div class="tag">AI Beauty Advisor</div>
+				</div>
+				<nav class="nav">
+					<button id="start-quiz" class="btn btn-primary">Take the Beauty Quiz</button>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-inner">
+					<div class="hero-text">
+						<h1 class="typing">Personalized beauty — crafted by AI</h1>
+						<p class="lead">Discover skincare, makeup, haircare and fragrances tailored to your skin, style and lifestyle.</p>
+						<div class="hero-actions">
+							<button id="cta-quiz" class="btn btn-primary">Start Your Routine</button>
+							<button id="cta-explore" class="btn btn-ghost">Explore Products</button>
+						</div>
+					</div>
+					<div class="hero-visual">
+							<div class="floating-products">
+								<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80" alt="hero flatlay"/>
+								<img src="https://images.unsplash.com/photo-1542831371-d531d36971e6?auto=format&fit=crop&w=1200&q=80" alt="skincare serum"/>
+								<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80" alt="makeup product"/>
+							</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="filters container">
+				<div class="filters-inner">
+					<div class="filters-left">
+						<h2>Filters</h2>
+						<div class="filter-row">
+							<label>Category</label>
+							<select id="filter-category">
+								<option value="all">All</option>
+								<option value="skincare">Skincare</option>
+								<option value="makeup">Makeup</option>
+								<option value="haircare">Haircare</option>
+								<option value="fragrance">Fragrance</option>
+								<option value="tools">Tools</option>
+							</select>
+						</div>
+						<div class="filter-row">
+							<label>Budget</label>
+							<select id="filter-budget">
+								<option value="any">Any</option>
+								<option value="0-25">$0–$25</option>
+								<option value="25-75">$25–$75</option>
+								<option value="75-200">$75–$200</option>
+								<option value="200+">$200+</option>
+							</select>
+						</div>
+						<div class="filter-row">
+							<label>Ingredient preference</label>
+							<select id="filter-ingredient">
+								<option value="any">Any</option>
+								<option value="vegan">Vegan</option>
+								<option value="cruelty-free">Cruelty-free</option>
+								<option value="fragrance-free">Fragrance-free</option>
+								<option value="sensitive-safe">Sensitive-safe<
+									/option>
+							</select>
+						</div>
+					</div>
+					<div class="filters-right">
+						<h2>Recommendations</h2>
+						<div id="recommendation-summary" class="summary">Start the quiz or apply filters to see recommendations.</div>
+						<div class="rec-controls" style="margin-top:10px;display:flex;gap:8px;align-items:center">
+							<button id="rec-toggle-btn" class="btn btn-ghost">Show Top Picks</button>
+							<div class="rec-hint" style="color:var(--muted);font-size:13px">Toggle to view all recommended products.</div>
+						</div>
+						<div id="recommended-list" class="product-grid" style="margin-top:12px"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="products container">
+				<div style="display:flex;align-items:center;justify-content:space-between;gap:12px">
+					<h2>Products</h2>
+					<div>
+						<button id="show-all-products" class="btn btn-ghost">Show All Products</button>
+					</div>
+				</div>
+				<div id="product-grid" class="product-grid"></div>
+			</section>
+
+			<div id="product-modal" class="modal hidden">
+				<div class="modal-content">
+					<button id="modal-close" class="modal-close">✕</button>
+					<div id="modal-body"></div>
+				</div>
+			</div>
+
+			<div id="quiz-modal" class="modal hidden">
+				<div class="modal-content quiz-content">
+					<button id="quiz-close" class="modal-close">✕</button>
+					<div id="quiz-steps"></div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div>© Aura 2025</div>
+				<div class="footer-links">Privacy • Terms • Contact</div>
+			</div>
+		</footer>
+
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f6e8ff"/>
+      <stop offset="100%" stop-color="#e9d5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g1)" rx="40"/>
+  <g transform="translate(120,120)">
+    <rect x="140" y="60" width="220" height="420" rx="24" fill="#fff" stroke="#dcc8ff" stroke-width="4"/>
+    <circle cx="250" cy="140" r="40" fill="#f3e8ff" stroke="#d1b3ff"/>
+    <text x="250" y="360" font-family="Inter, Arial" font-size="34" fill="#6b21a8" text-anchor="middle">Hydra Radiance</text>
+    <text x="250" y="400" font-family="Inter, Arial" font-size="18" fill="#6b6b6b" text-anchor="middle">Serum</text>
+  </g>
+</svg>

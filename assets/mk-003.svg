@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g12" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff4f8"/>
+      <stop offset="100%" stop-color="#fff1f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g12)" rx="40"/>
+  <g transform="translate(120,120)">
+    <rect x="160" y="120" width="240" height="340" rx="20" fill="#fff" stroke="#ffeef8" stroke-width="3"/>
+    <text x="280" y="420" font-family="Inter, Arial" font-size="28" fill="#8b5cf6" text-anchor="middle">Buildable Glow Foundation</text>
+  </g>
+</svg>

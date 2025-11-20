@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff0f8"/>
+      <stop offset="100%" stop-color="#ffeef8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g2)" rx="40"/>
+  <g transform="translate(120,120)">
+    <rect x="120" y="90" width="260" height="360" rx="20" fill="#fff" stroke="#ffddeb" stroke-width="3"/>
+    <ellipse cx="250" cy="160" rx="80" ry="60" fill="#fbe8f6" stroke="#f3c1e6"/>
+    <text x="250" y="360" font-family="Inter, Arial" font-size="32" fill="#8b5cf6" text-anchor="middle">Sheer Glow</text>
+    <text x="250" y="400" font-family="Inter, Arial" font-size="16" fill="#6b6b6b" text-anchor="middle">Tinted Moisturizer</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g10" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f9fff8"/>
+      <stop offset="100%" stop-color="#f0fff6"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g10)" rx="40"/>
+  <g transform="translate(120,120)">
+    <rect x="160" y="100" width="240" height="360" rx="20" fill="#fff" stroke="#e6fff1" stroke-width="3"/>
+    <text x="280" y="420" font-family="Inter, Arial" font-size="28" fill="#0f766e" text-anchor="middle">Calm & Restore Serum</text>
+  </g>
+</svg>
